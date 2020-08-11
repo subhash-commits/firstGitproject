@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Registration-Page
+    </title>
+    <style>
+        div{
+            margin-top: 10px;
+        }
+        #form1{
+            padding: 24px;
+            width: 500px;
+            background-color: azure;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .input-label{
+            width: 300px;
+        }
+        .required::after{
+            content:" *";
+            color:red;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: aqua;">
+    <h1 style="text-align: center;">Signup</h1>
+    <form id="form1">
+        <div>
+        <p class="required">Full Name :</p>
+        <input class="input-label" type="text" name="full name" placeholder="Full Name" required autofocus maxlength="5">
+        </div>
+        <div>
+        <p class="required">Email:</p>
+        <input  class="input-label" type="text" name="email" placeholder="email" required >
+        </div>
+        <div>
+       <p class="required">Password:</p>
+        <input  class="input-label" type="password" name="password" required>
+        </div>
+        <div>
+       <p class="required">Confirm Password:</p>
+        <input class="input-label" type="password" name="password" required>
+        </div>
+        <div>
+            Age:<br>
+            <input type="number" value ="age" min="15" max="60">
+        </div>
+        <div>
+            Gender:
+            <br>
+            <input type="radio" name="male" value="male">Male
+            <input type="radio" name="female" value="female">Female
+            <input type="radio" name="other" value="other">Other
+        </div>
+        <div>
+            Date Of Birth:
+            <br>
+            <input type="date" value="date">
+            <input type="date" value="date" min="1990-05-05">
+        </div>
+        <div>
+            Technologies you Know:<br>
+            <input  list="Technologies" name="Technologies">
+           <datalist id="Technologies">
+               <option value="Java" selected></option>
+               <option value="Dotnet"></option>
+               <option value="oracle"></option>
+               <option value="MySql"></option>
+               <option value="Selenium"></option>
+               <option value="manuual testing"></option>
+           </datalist>
+        </div>
+        <div>
+            Security Question:
+            <br>
+            <select class="selectclass" multiple>
+                <option>What is your nick name </option>
+                <option>What is your pet name</option>
+                <option>What is your job name</option>
+                <option>what is your first girlfriend name</option>
+                <option>when you first experienced your first kiss</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="address" cols="34" rows="6">Address</textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="tick">I accept the Terms and conditions
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
