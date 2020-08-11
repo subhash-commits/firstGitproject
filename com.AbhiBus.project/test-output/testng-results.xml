@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-07T17:04:59 IST" name="Default suite" finished-at="2020-08-07T17:05:54 IST" duration-ms="55371">
+    <groups>
+    </groups>
+    <test started-at="2020-08-07T17:04:59 IST" name="Default test" finished-at="2020-08-07T17:05:54 IST" duration-ms="55371">
+      <class name="com.AbhiBus.project.TestDemo">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:04:59 IST" name="startReport" finished-at="2020-08-07T17:04:59 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:04:59 IST" name="initialization" finished-at="2020-08-07T17:05:10 IST" duration-ms="11408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="demo()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:10 IST" name="demo" finished-at="2020-08-07T17:05:13 IST" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:13 IST" name="getResult" finished-at="2020-08-07T17:05:14 IST" duration-ms="685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demo status=SUCCESS method=TestDemo.demo()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:14 IST" name="initialization" finished-at="2020-08-07T17:05:27 IST" duration-ms="12882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:27 IST" name="VerifyLofin" data-provider="getCRMTestData" finished-at="2020-08-07T17:05:27 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.AbhiBus.project.TestDemo.VerifyLofin(TestDemo.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLofin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:27 IST" name="getResult" finished-at="2020-08-07T17:05:28 IST" duration-ms="1069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLofin status=FAILURE method=TestDemo.VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:28 IST" name="initialization" finished-at="2020-08-07T17:05:42 IST" duration-ms="13454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:42 IST" name="VerifyLofin" data-provider="getCRMTestData" finished-at="2020-08-07T17:05:42 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.286965251E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subhash@1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.AbhiBus.project.TestDemo.VerifyLofin(TestDemo.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLofin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:42 IST" name="getResult" finished-at="2020-08-07T17:05:44 IST" duration-ms="1939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLofin status=FAILURE method=TestDemo.VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:44 IST" name="initialization" finished-at="2020-08-07T17:05:53 IST" duration-ms="8828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:53 IST" name="VerifyLofin" data-provider="getCRMTestData" finished-at="2020-08-07T17:05:53 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.300522519E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.286965251E9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.AbhiBus.project.TestDemo.VerifyLofin(TestDemo.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLofin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:53 IST" name="getResult" finished-at="2020-08-07T17:05:54 IST" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLofin status=FAILURE method=TestDemo.VerifyLofin(java.lang.String, java.lang.String)[pri:1, instance:com.AbhiBus.project.TestDemo@1a04f701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.AbhiBus.project.TestDemo@1a04f701]" started-at="2020-08-07T17:05:54 IST" name="endReport" finished-at="2020-08-07T17:05:54 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.AbhiBus.project.TestDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

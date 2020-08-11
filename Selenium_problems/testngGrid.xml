@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<test thread-count="5" name="TestFirefox">
+      <parameter name="nodeURL" value="http://localhost:4444/wd/hub"/>
+      <parameter name="browserName" value="firefox"/>
+  		<classes>
+  		      <class name="gridDemo.HandlingGridDemo"/>
+  		</classes>
+  </test>
+  
+  <test thread-count="5" name="TestChrome">
+      <parameter name="nodeURL" value="http://localhost:4444/wd/hub"/>
+      <parameter name="browserName" value="chrome"/>
+  		<classes>
+  		      <class name="gridDemo.HandlingGridDemo"/>
+  		</classes>
+  </test> 
+</suite> <!-- Suite -->
